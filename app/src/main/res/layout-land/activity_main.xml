@@ -8,16 +8,18 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/teams"
         android:name="com.collegelasalle.felix.androidtest.TeamFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
 
-    <fragment
-        android:id="@+id/fragment2"
-        android:name="com.collegelasalle.felix.androidtest.InfoFragment"
+    <FrameLayout
+        android:id="@+id/info"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_weight="1">
+
+    </FrameLayout>
+
 </LinearLayout>
